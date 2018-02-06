@@ -8,7 +8,7 @@ patch:
   menu/page_size: 6
   switcher:
     hotkeys:
-    - Alt+grave
+    - Control+F4
   ascii_composer:
     switch_key:
       Caps_Lock: noop
