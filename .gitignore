@@ -1,0 +1,6 @@
+*.bin
+*.yaml
+!*.custom.yaml
+!alternative.yaml
+.DS_Store
+*.userdb/
