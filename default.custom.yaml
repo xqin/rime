@@ -2,6 +2,7 @@
 
 patch:
   recognizer/patterns/program: "^.{3,}[.].*$"
+  recognizer/patterns/uopercase: "^.+[A-Z].*$"
   schema_list:
     - schema: wubi_pinyin #输入方案, 该方案包含下面这两个方案，所以下面这两个注释掉
     #- schema: wubi86
