@@ -10,4 +10,4 @@ patch:
   #speller/auto_select_unique_candidate: true
   'punctuator/import_preset': alternative
   'key_binder/import_preset': alternative
-  translator/dictionary: wubi86.extended
+  #translator/dictionary: wubi86.extended
