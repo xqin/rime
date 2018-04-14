@@ -5,3 +5,5 @@
 !alternative.yaml
 .DS_Store
 *.userdb/
+build/
+wubi86/
