@@ -4,9 +4,7 @@ patch:
   recognizer/patterns/shorturl: "^.[0-9/._].*$"
   recognizer/patterns/program: "^.+[A-Z/._].*$"
   schema_list:
-    - schema: wubi_pinyin #输入方案, 该方案包含下面这两个方案，所以下面这两个注释掉
-    #- schema: wubi86
-    #- schema: pinyin-simp
+    - schema: wubi86
   menu/page_size: 6
   switcher:
     hotkeys:
