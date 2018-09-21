@@ -16,12 +16,14 @@ patch:
   switcher:
     hotkeys: ["Control+F4"]
   ascii_composer:
+    good_old_caps_lock: false
     switch_key:
-      Caps_Lock: noop
+      Caps_Lock: commit_code
       Control_L: noop
       Control_R: noop
-      Shift_L: commit_code
-      Shift_R: commit_code
+      #Shift_L: commit_code
+      Shift_L: noop
+      Shift_R: noop
 
 # 可用的按鍵有 Caps_Lock, Shift_L, Shift_R, Control_L, control_R
 # Mac 系統上的鼠鬚管不能區分左、右，因此只有對 Shift_L, Control_L 的設定起作用
@@ -36,3 +38,12 @@ patch:
 # 如果要把 Caps Lock 設爲只改變字母的大小寫而不做中西文切換，可將 Caps_Lock 對應的切換方式設爲 noop
 # 如果要以 Caps Lock 切換到西文模式，默認輸出小寫字母，請置 ascii_composer/good_old_caps_lock: false
 # 如果要以 Caps Lock 切換到西文模式，默認輸出大寫字母，請使用以下設置：
+# patch:
+#  ascii_composer/good_old_caps_lock: true
+#  ascii_composer/switch_key:
+#    Caps_Lock: commit_code
+#    Shift_L: noop
+#    Shift_R: noop
+#    Control_L: commit_code
+#    Control_R: commit_code
+
