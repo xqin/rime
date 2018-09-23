@@ -1,10 +1,19 @@
 customization:
   distribution_code_name: Weasel
-  distribution_version: 0.11.0
+  distribution_version: 0.11.1
   generator: "Weasel::UIStyleSettings"
   modified_time: "Sat Apr 14 12:55:41 2018"
   rime_version: 1.3.1
 patch:
-  "style/color_scheme": flypy     # ÆôÓÃ flypy µÄÖ÷Ìâ·ç¸ñ
-  "style/horizontal": true        # ºòÑ¡ÌõºáÏòÏÔÊ¾
-  "style/inline_preedit": true    # ÆôÓÃÄÚÇ¶±àÂëÄ£Ê½£¬ºòÑ¡ÌõÊ×ĞĞ²»ÏÔÊ¾±àÂë
+  "style/color_scheme": flypy     # å¯ç”¨ flypy çš„ä¸»é¢˜é£æ ¼
+  "style/font_face": "Microsoft YaHei Mono"
+  "style/font_point": 16
+  "style/label_format": "%s"
+  "style/horizontal": true        # å€™é€‰æ¡æ¨ªå‘æ˜¾ç¤º
+  "style/inline_preedit": true    # å¯ç”¨å†…åµŒç¼–ç æ¨¡å¼ï¼Œå€™é€‰æ¡é¦–è¡Œä¸æ˜¾ç¤ºç¼–ç 
+  "style/layout/border": 1        # è®¾ç½®è¾¹æ¡†å®½åº¦
+  "style/layout/hilite_spacing": 4
+  "style/layout/hilite_padding": 2
+  "style/layout/candidate_spacing": 6  # æ¯ä¸ªå€™é€‰é¡¹ä¹‹é—´çš„è·ç¦»
+  "style/layout/margin_x": 8
+  "style/layout/margin_y": 6
