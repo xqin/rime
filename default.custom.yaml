@@ -21,9 +21,8 @@ patch:
       Caps_Lock: commit_code
       Control_L: noop
       Control_R: noop
-      #Shift_L: commit_code
       Shift_L: noop
-      Shift_R: noop
+      Shift_R: commit_code
 
 # 可用的按鍵有 Caps_Lock, Shift_L, Shift_R, Control_L, control_R
 # Mac 系統上的鼠鬚管不能區分左、右，因此只有對 Shift_L, Control_L 的設定起作用
