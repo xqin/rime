@@ -12,7 +12,7 @@ patch:
   recognizer/patterns/program: "^.+[A-Z/._].*$"
   schema_list:
     - {schema: wubi86}
-  menu/page_size: 6
+  menu/page_size: 3
   switcher:
     hotkeys: ["Control+F4"]
   ascii_composer:
