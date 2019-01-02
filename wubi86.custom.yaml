@@ -5,11 +5,11 @@ patch:
   #  - erase/.*/
   translator/comment_format: #去除编码
     - erase/.*/
-  #translator/enable_user_dict: false # 关闭词频调整
-  #translator/enable_sentence: false # 关闭句子输入
+  translator/enable_user_dict: true # 开启词频调整
+  translator/enable_sentence: true # 开启句子输入
   #speller/max_code_length: 4 #最长4码
-  #speller/auto_select: true # 顶字上屏
-  #speller/auto_select_unique_candidate: true #无重码自动上屏
+  speller/auto_select: false # 关闭顶字上屏
+  speller/auto_select_unique_candidate: false #关闭 无重码自动上屏
   'punctuator/import_preset': alternative
   'key_binder/import_preset': alternative
   translator/dictionary: wubi86.extended
