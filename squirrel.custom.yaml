@@ -2,8 +2,7 @@
 # encoding: utf-8
 
 patch:
-  app_options/com.microsoft.VSCode:
-    ascii_mode: false
+  app_options: null
   show_notifications_via_notification_center: true
   style:
     color_scheme: "xqin"
