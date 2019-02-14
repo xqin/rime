@@ -12,4 +12,3 @@ patch:
   speller/auto_select_unique_candidate: false #关闭 无重码自动上屏
   'punctuator/import_preset': alternative
   'key_binder/import_preset': alternative
-  translator/dictionary: wubi86.extended

@@ -5,12 +5,14 @@ customization:
   modified_time: "Sat Apr 14 12:55:41 2018"
   rime_version: 1.3.1
 patch:
+  "app_options": null
   "style/color_scheme": flypy     # 启用 flypy 的主题风格
   "style/font_face": "Microsoft YaHei Mono"
   "style/font_point": 16
   "style/label_format": "%s"
   "style/horizontal": true        # 候选条横向显示
   "style/inline_preedit": true    # 启用内嵌编码模式，候选条首行不显示编码
+  "style/display_tray_icon": true  # 顯示托盤圖標
   "style/layout/border": 1        # 设置边框宽度
   "style/layout/hilite_spacing": 4
   "style/layout/hilite_padding": 2
