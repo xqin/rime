@@ -14,7 +14,7 @@ patch:
     - {schema: wubi86}
   menu/page_size: 3
   switcher:
-    hotkeys: ["Control+F4"]
+    hotkeys: ["Control+slash"]
   ascii_composer:
     good_old_caps_lock: false
     switch_key:
