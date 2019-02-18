@@ -14,6 +14,7 @@ patch:
   "style/inline_preedit": true    # 启用内嵌编码模式，候选条首行不显示编码
   #"style/display_tray_icon": true  # 顯示托盤圖標
   "style/layout/border": 1        # 设置边框宽度
+  "style/layout/min_width": 0 # 设置窗口的最小宽度
   "style/layout/hilite_spacing": 4
   "style/layout/hilite_padding": 2
   "style/layout/candidate_spacing": 6  # 每个候选项之间的距离
