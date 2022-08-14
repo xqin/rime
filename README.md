@@ -1,13 +1,13 @@
-# squirrel config
+# Rime config
 
 
 ## download config file
 ```
 # MAC OS User
-git clone https://github.com/xqin/squirrel.git ~/Library/Rime/
+git clone https://github.com/xqin/Rime.git ~/Library/Rime/
 
 # Linux OS User
-git clone https://github.com/xqin/squirrel.git ~/.config/ibus/rime/
+git clone https://github.com/xqin/Rime.git ~/.config/ibus/rime/
 ```
 
 ## download dependence
