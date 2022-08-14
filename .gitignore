@@ -1,5 +1,6 @@
 *.bin
 *.yaml
+!ibus_rime.yaml
 !*.custom.yaml
 !*.extended.dict.yaml
 !alternative.yaml
