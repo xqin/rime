@@ -1,18 +1,17 @@
 customization:
   distribution_code_name: Weasel
-  distribution_version: 0.11.1
+  distribution_version: 0.14.3
   generator: "Weasel::UIStyleSettings"
-  modified_time: "Sat Apr 14 12:55:41 2018"
-  rime_version: 1.3.1
+  modified_time: "Sun Apr  4 21:37:23 2021"
+  rime_version: 1.5.3
 patch:
-  "app_options": null
   "style/color_scheme": flypy     # 启用 flypy 的主题风格
   "style/font_face": "Microsoft YaHei Mono"
   "style/font_point": 16
   "style/label_format": "%s"
   "style/horizontal": true        # 候选条横向显示
   "style/inline_preedit": true    # 启用内嵌编码模式，候选条首行不显示编码
-  #"style/display_tray_icon": true  # 顯示托盤圖標
+  "style/display_tray_icon": false  # 显示托盘图标
   "style/layout/border": 1        # 设置边框宽度
   "style/layout/min_width": 0 # 设置窗口的最小宽度
   "style/layout/hilite_spacing": 4
@@ -20,3 +19,4 @@ patch:
   "style/layout/candidate_spacing": 6  # 每个候选项之间的距离
   "style/layout/margin_x": 8
   "style/layout/margin_y": 6
+  app_options: null
