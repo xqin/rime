@@ -8,8 +8,8 @@ customization:
   rime_version: 1.2.9
 
 patch:
-  recognizer/patterns/shorturl: "^.[0-9/._-].*$"
-  recognizer/patterns/program: "^.+[A-Z/._-].*$"
+  #recognizer/patterns/shorturl: "^.[0-9/._-].*$"
+  recognizer/patterns/program: "^.+[A-Z@._-].*$"
   schema_list:
     - {schema: wubi86}
   menu/page_size: 3
