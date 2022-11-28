@@ -12,5 +12,9 @@ patch:
   #speller/max_code_length: 4 #最长4码
   speller/auto_select: false # 关闭顶字上屏
   speller/auto_select_unique_candidate: false #关闭 无重码自动上屏
-  'punctuator/import_preset': alternative
+  #'punctuator/import_preset': alternative
   'key_binder/import_preset': alternative
+  switches:
+    - name: ascii_mode # 选择输入法后通常需要立即输入中文(否则也不会切换到本输入法), 故重置 ascii_mode 为 0 (即忽略历史记录的状态, 强制为中文输入状态)
+      reset: 0
+      states: [ 中文, 西文 ]
