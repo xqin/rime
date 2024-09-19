@@ -8,12 +8,14 @@ patch:
     color_scheme: "xqin"
     corner_radius: 6                            # 候选条圆角半径
     border_height: 0                            # 窗口边界高度，大于圆角半径才生效
-    border_width: 0                            # 窗口边界宽度，大于圆角半径才生效
+    border_width: 0                             # 窗口边界宽度，大于圆角半径才生效
   preset_color_schemes:
     xqin:
       name: "xqin"
       author: "xqin <dds.feng@gmail.com>"
-      horizontal: true                           # 候选条横向显示
+      horizontal: true                            # 候选条横向显示
+      candidate_list_layout: linear               # 升级 1.0.2 之后需要加上这个配置项, 才会横向显示
+      text_orientation: horizontal                # 升级 1.0.2 之后需要加上这个配置项, 才会横向显示
       inline_preedit: true                        # 启用内嵌编码模式，候选条首行不显示拼音
       candidate_format: "%c.\u2005%@\u2005"       # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间。
       text_color: 0xFFFFFF                        # HEX颜色代码，但是要注意顺序是蓝绿红（倒序）0xBBGGRR
