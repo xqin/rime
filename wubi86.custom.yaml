@@ -9,3 +9,9 @@ patch:
   key_binder:
     bindings:
       - { when: always, accept: Control+period, toggle: ascii_punct }
+
+__patch:
+# Rx: emoji:customize:schema=wubi86 {
+  - patch/+:
+      __include: emoji_suggestion:/patch
+# }

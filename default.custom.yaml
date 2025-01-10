@@ -10,6 +10,3 @@ patch:
     hotkeys: ["Control+grave"]
   ascii_composer:
     good_old_caps_lock: false
-    switch_key:
-      Shift_L: inline_ascii
-      Shift_R: inline_ascii

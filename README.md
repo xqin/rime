@@ -13,13 +13,13 @@ git clone https://github.com/xqin/Rime.git ~/.config/ibus/rime/
 ## download dependence
 
 ```
-curl -fsSL https://git.io/rime-install | bash -s -- prelude wubi pinyin-simp
+curl -fsSL https://git.io/rime-install | bash -s -- prelude wubi pinyin-simp emoji emoji:customize:schema=wubi86
 
 # or
 
 git clone --depth=1 https://github.com/rime/plum.git
 cd plum
-bash ./rime-install prelude wubi pinyin-simp
+bash ./rime-install prelude wubi pinyin-simp emoji emoji:customize:schema=wubi86
 ```
 
 ## linux
