@@ -1,4 +1,3 @@
-# squirrel.custom.yaml
 # encoding: utf-8
 
 patch:
@@ -6,7 +5,7 @@ patch:
   show_notifications_via_notification_center: true
   style:
     color_scheme: "xqin"
-    corner_radius: 6                            # 候选条圆角半径
+    corner_radius: 8                            # 候选条圆角半径
     border_height: 0                            # 窗口边界高度，大于圆角半径才生效
     border_width: 0                             # 窗口边界宽度，大于圆角半径才生效
   preset_color_schemes:
@@ -17,38 +16,13 @@ patch:
       candidate_list_layout: linear               # 升级 1.0.2 之后需要加上这个配置项, 才会横向显示
       text_orientation: horizontal                # 升级 1.0.2 之后需要加上这个配置项, 才会横向显示
       inline_preedit: true                        # 启用内嵌编码模式，候选条首行不显示拼音
-      candidate_format: "%c.\u2005%@\u2005"       # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间。
-      text_color: 0xFFFFFF                        # HEX颜色代码，但是要注意顺序是蓝绿红（倒序）0xBBGGRR
       back_color: 0xFFFFFF                        # 候选条背景色
-      line_spacing: 0                             # 候选词的行间距
-      # spacing: 3                                  # 在非内嵌编码模式下，预编辑和候选词之间的间距
-      #font_face: "PingFangSC-Regular"             # 候选词字体
-      font_point: 18                              # 预选栏文字字号
-      #label_font_face: "PingFangSC-Regular"       # 候选词编号字体
-      label_font_point: 18                        # 预选栏编号字号
+      font_face: "PingFangSC-Regular"             # 候选词字体
+      font_point: 20                              # 预选栏文字字号
+      label_font_face: "PingFangSC-Regular"       # 候选词编号字体
+      label_font_point: 20                        # 预选栏编号字号
       comment_text_color: 0x000000                #非第一候选字后面的编码提示的颜色
       candidate_text_color: 0x000000              #非第一候选项
       hilited_candidate_back_color: 0xD98840      #第一候选项背景
       hilited_candidate_text_color: 0xFFFFFF      #第一候选项
       hilited_comment_text_color: 0xFFFFFF
-    xqinv:
-      name: "xqinv"
-      author: "xqin <dds.feng@gmail.com>"
-      horizontal: true                            # 候选条横向显示
-      inline_preedit: true                        # 启用内嵌编码模式，候选条首行不显示拼音
-      candidate_format: "%c.\u2005%@\u2005"       # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间。
-      back_color: 0x343434                        # 候选条背景色
-      line_spacing: 0                             # 候选词的行间距
-      # spacing: 3                                # 在非内嵌编码模式下，预编辑和候选词之间的间距
-      #font_face: "PingFangSC-Regular"            # 候选词字体
-      font_point: 18                              # 预选栏文字字号
-      #label_font_face: "PingFangSC-Regular"      # 候选词编号字体
-      label_font_point: 20                        # 预选栏编号字号
-      text_color: 0xFFFFFF                        # HEX颜色代码，但是要注意顺序是蓝绿红（倒序）0xBBGGRR
-      comment_text_color: 0xCAB014                #非第一候选字后面的编码提示的颜色
-      candidate_text_color: 0xFFFFFF              #非第一候选项
-      hilited_text_color: 0xFFFFFF      #
-      hilited_candidate_back_color: 0xCAB014      #第一候选项背景
-      hilited_candidate_text_color: 0xFFFFFF      #第一候选项
-      hilited_comment_text_color: 0xFFFFFF
-

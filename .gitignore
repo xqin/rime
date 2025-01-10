@@ -1,11 +1,6 @@
-*.bin
 *.yaml
-!ibus_rime.yaml
+!installation.yaml
 !*.custom.yaml
-!*.extended.dict.yaml
-!alternative.yaml
-.DS_Store
-*.userdb/
 build/
-wubi86/
+wubi86.userdb/
 sync/

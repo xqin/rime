@@ -1,16 +1,11 @@
 # encoding: utf-8
 
 patch:
-  "reverse_lookup/comment_format/@1": xform/^(\w+).*/$1/
-  # reverse_lookup/comment_format: #去除反查到的编码
-  #   - erase/ .*/
-  # "translator/comment_format/@1": xform/^(\w+).*/$1/
-  translator/comment_format: #去除编码
+  translator/comment_format:                    # 去除编码
     - erase/.*/
-  translator/enable_user_dict: true # 开启词频调整
-  translator/enable_sentence: true # 开启句子输入
-  #speller/max_code_length: 4 #最长4码
-  speller/auto_select: false # 关闭顶字上屏
-  speller/auto_select_unique_candidate: false #关闭 无重码自动上屏
-  'punctuator/import_preset': alternative
-  'key_binder/import_preset': alternative
+  translator/enable_user_dict: true             # 开启词频调整
+  speller/auto_select: false                    # 关闭顶字上屏
+  speller/auto_select_unique_candidate: false   # 关闭 无重码自动上屏
+  key_binder:
+    bindings:
+      - { when: always, accept: Control+period, toggle: ascii_punct }
