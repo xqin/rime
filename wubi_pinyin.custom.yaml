@@ -1,7 +1,7 @@
 # encoding: utf-8
 
 patch:
-  reverse_lookup/comment_format:
+  reverse_lookup/comment_format:                #去除反查到的编码
     - erase/.*/
   translator/comment_format:                    # 去除编码
     - erase/.*/

@@ -2,6 +2,6 @@
 !installation.yaml
 !*.custom.yaml
 build/
-wubi86.userdb/
+*.userdb/
 sync/
 opencc/

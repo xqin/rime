@@ -4,7 +4,7 @@ patch:
   recognizer/patterns/program: "^.+[A-Z@/._-].*$"
   recognizer/patterns/version: "^[a-z][1-9].*$"
   schema_list:
-    - schema: wubi86
+    - schema: wubi_pinyin
   menu/page_size: 5
   switcher:
     hotkeys: ["Control+grave"]
