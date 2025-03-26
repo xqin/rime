@@ -8,6 +8,10 @@ patch:
   translator/enable_user_dict: true             # 开启词频调整
   speller/auto_select: false                    # 关闭顶字上屏
   speller/auto_select_unique_candidate: false   # 关闭 无重码自动上屏
+  key_binder:
+    bindings:
+      - { when: composing, accept: Shift+Tab, send: Left }
+      - { when: composing, accept: Tab, send: Right }
 
 __patch:
 # Rx: emoji:customize:schema=wubi86 {
